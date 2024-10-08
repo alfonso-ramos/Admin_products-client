@@ -4,3 +4,7 @@ export function formatCurrency(amount: number){
         currency: 'USD'
     }).format(amount)
 }
+
+export function toBoolen(str :string) {
+    return str.toLowerCase() === "true"
+}
