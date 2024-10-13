@@ -6,7 +6,6 @@ import { Product } from '../types/index';
 // eslint-disable-next-line react-refresh/only-export-components
 export async function loader() {
   const products = await getProducts();
-  console.log(products)
 
   return products;
 }
